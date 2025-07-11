@@ -166,3 +166,16 @@ main img {
   font-size: 14px;
   margin-top: 5px;
 }
+
+
+.get-started {
+  text-align: center;
+  background-color: #ffffff;
+  margin: 115px 150px;
+  border-radius: 14px;
+  padding: 50px;
+}
+
+.get-started img {
+  padding: 15px;
+}
