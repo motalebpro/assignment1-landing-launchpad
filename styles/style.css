@@ -1,3 +1,7 @@
+body {
+  background-color: #F5F7FF;
+}
+
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -17,7 +21,7 @@
   color: #ffffff;
 }
 
-.primary-col {
+.primary-color {
   color: #4E47FF;
 }
 
@@ -39,12 +43,21 @@
   background-color: #211aff;
 }
 
-/* Shared Style End */
+.section-heading {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.section-description {
+  font-size: 24px;
+  font-weight: normal;
+  color: rgba(37, 36, 50, 0.5);
+
+}
 
 /* Header Style Start */
 header {
   background-image: url("../Assets/Hero-bg.png");
-  height: 698px;
 }
 
 nav {
@@ -62,12 +75,41 @@ nav {
 .banner {
   text-align: center;
   margin: 0 267px;
+  padding: 158px 0 200px 0;
 }
 
 .banner h1 {
-  font-size: 97px;
+  font-size: 65px;
   font-weight: bold;
   line-height: 120%;
 }
 
-/* Header Style End */
+/* Start Action Section */
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin: 115px 150px;
+}
+
+main img {
+  border-radius: 48px;
+}
+
+/* User Data Style */
+.user-data-section {
+  background-color: rgba(78, 71, 255, 0.1);
+  text-align: center;
+  margin: 115px 150px;
+  padding: 50px 80px;
+  border-radius: 24px;
+}
+
+.user-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-heading {
+  font-weight: bold;
+  font-size: 80px;
+}
