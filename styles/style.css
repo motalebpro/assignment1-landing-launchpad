@@ -113,3 +113,56 @@ main img {
   font-weight: bold;
   font-size: 80px;
 }
+
+/* Feedback section */
+.feedback-section {
+  background-color: #F5F7FF;
+}
+
+.feedback-user {
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 24px;
+  text-align: left;
+  margin: 20px;
+}
+
+.user-pic {
+  max-width: 30%;
+  float: left;
+}
+
+.user-name {
+  max-width: 70%;
+  float: left;
+}
+
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+}
+
+.profile-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: auto;
+
+}
+
+.profile-date {
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
